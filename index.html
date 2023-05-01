@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <title>carousel</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_3d.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <script src="script.js" defer></script>
+    <script src="script3d.js" defer></script>
+  </head>
+
+  <body>
+    <h2>Carousel</h2>
+    <div class="carousel-wrapper">
+      <div class="carousel">
+        <img class="carousel_item" src="assets/1.jpeg" />
+        <img class="carousel_item" src="assets/2.jpeg" />
+        <img class="carousel_item" src="assets/3.jpeg" />
+        <img class="carousel_item" src="assets/4.jpeg" />
+        <img class="carousel_item" src="assets/5.jpeg" />
+
+        <div class="carousel_button--next"></div>
+        <div class="carousel_button--prev"></div>
+      </div>
+    </div>
+    <h2>3D Carousel</h2>
+    <div class="container">
+      <div class="carousel_3d">
+        <div class="item">
+          <img src="https://picsum.photos/id/237/400/300" alt="A" />
+        </div>
+        <div class="item">
+          <img src="https://picsum.photos/id/238/400/300" alt="B" />
+        </div>
+        <div class="item">
+          <img src="https://picsum.photos/id/239/400/300" alt="C" />
+        </div>
+        <div class="item">
+          <img src="https://picsum.photos/id/240/400/300" alt="D" />
+        </div>
+        <div class="item">
+          <img src="https://picsum.photos/id/241/400/300" alt="E" />
+        </div>
+        <div class="item">
+          <img src="https://picsum.photos/id/242/400/300" alt="F" />
+        </div>
+      </div>
+    </div>
+    <div class="buttons">
+      <button class="prev_button"><i class="fas fa-caret-left"></i></button>
+      <button class="next_button"><i class="fas fa-caret-right"></i></button>
+    </div>
+  </body>
+</html>
