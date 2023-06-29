@@ -2,8 +2,9 @@
 - 캐러셀 구현
 - 3D 캐러셀 구현 
 
-![Animation12](https://user-images.githubusercontent.com/127499117/235470565-3edc4f8f-1b64-46f0-ad17-e147409d4532.gif)
-
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/127499117/235470565-3edc4f8f-1b64-46f0-ad17-e147409d4532.gif" alt="Animation12">
+</p>
 
 >이미 캐러셀은 정말 완벽하게 구현된 많은 라이브러리가 있기때문에, 위에 처럼 간단하게 PREV, NEXT 버튼으로만 구성된 캐러셀이 실제 프로젝트에 쓰여지진 않겠지만, 캐러셀이 어떻게 동작하는지 알 수 있게 되었다..!
 
